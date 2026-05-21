@@ -9,4 +9,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://inline-iptv.live/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://inline-iptv.live/"/>
   </url>
+  <url>
+    <loc>https://inline-iptv.live/privacy</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://inline-iptv.live/terms</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://inline-iptv.live/refund-policy</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
 </urlset>

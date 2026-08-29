@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://inline-iptv.live/</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://inline-iptv.live/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://inline-iptv.live/"/>
-  </url>
-  <url>
-    <loc>https://inline-iptv.live/privacy</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://inline-iptv.live/terms</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://inline-iptv.live/refund-policy</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://inline-iptv.live/</loc></url>
+  <url><loc>https://inline-iptv.live/about</loc></url>
+  <url><loc>https://inline-iptv.live/contact</loc></url>
+  <url><loc>https://inline-iptv.live/help</loc></url>
+  <url><loc>https://inline-iptv.live/setup-guides</loc></url>
+  <url><loc>https://inline-iptv.live/devices</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-subscription</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-for-firestick</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-for-smart-tv</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-for-android</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-for-iphone</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-for-apple-tv</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-guides</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-guides/what-is-iptv</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-guides/how-does-iptv-work</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-guides/internet-speed-for-iptv</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-guides/fix-iptv-buffering</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-guides/what-is-m3u</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-guides/iptv-epg</loc></url>
+  <url><loc>https://inline-iptv.live/iptv-guides/iptv-vs-cable</loc></url>
+  <url><loc>https://inline-iptv.live/privacy</loc></url>
+  <url><loc>https://inline-iptv.live/terms</loc></url>
+  <url><loc>https://inline-iptv.live/refund-policy</loc></url>
 </urlset>

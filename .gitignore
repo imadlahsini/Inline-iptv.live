@@ -22,3 +22,6 @@ npm-debug.log*
 
 # Dependency directories (in case you add tooling later)
 node_modules/
+
+# Local analysis output
+graphify-out/

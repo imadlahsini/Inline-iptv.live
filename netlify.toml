@@ -56,6 +56,160 @@
   [context.branch-deploy.headers.values]
     X-Robots-Tag = "noindex, nofollow"
 
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+[[redirects]]
+  from = "/contact.html"
+  to = "/contact"
+  status = 301
+[[redirects]]
+  from = "/help.html"
+  to = "/help"
+  status = 301
+[[redirects]]
+  from = "/setup-guides.html"
+  to = "/setup-guides"
+  status = 301
+[[redirects]]
+  from = "/devices.html"
+  to = "/devices"
+  status = 301
+[[redirects]]
+  from = "/iptv-subscription.html"
+  to = "/iptv-subscription"
+  status = 301
+[[redirects]]
+  from = "/iptv-for-firestick.html"
+  to = "/iptv-for-firestick"
+  status = 301
+[[redirects]]
+  from = "/iptv-for-smart-tv.html"
+  to = "/iptv-for-smart-tv"
+  status = 301
+[[redirects]]
+  from = "/iptv-for-android.html"
+  to = "/iptv-for-android"
+  status = 301
+[[redirects]]
+  from = "/iptv-for-iphone.html"
+  to = "/iptv-for-iphone"
+  status = 301
+[[redirects]]
+  from = "/iptv-for-apple-tv.html"
+  to = "/iptv-for-apple-tv"
+  status = 301
+[[redirects]]
+  from = "/iptv-guides.html"
+  to = "/iptv-guides"
+  status = 301
+[[redirects]]
+  from = "/privacy.html"
+  to = "/privacy"
+  status = 301
+[[redirects]]
+  from = "/terms.html"
+  to = "/terms"
+  status = 301
+[[redirects]]
+  from = "/refund-policy.html"
+  to = "/refund-policy"
+  status = 301
+[[redirects]]
+  from = "/iptv-guides/what-is-iptv.html"
+  to = "/iptv-guides/what-is-iptv"
+  status = 301
+[[redirects]]
+  from = "/iptv-guides/how-does-iptv-work.html"
+  to = "/iptv-guides/how-does-iptv-work"
+  status = 301
+[[redirects]]
+  from = "/iptv-guides/internet-speed-for-iptv.html"
+  to = "/iptv-guides/internet-speed-for-iptv"
+  status = 301
+[[redirects]]
+  from = "/iptv-guides/fix-iptv-buffering.html"
+  to = "/iptv-guides/fix-iptv-buffering"
+  status = 301
+[[redirects]]
+  from = "/iptv-guides/what-is-m3u.html"
+  to = "/iptv-guides/what-is-m3u"
+  status = 301
+[[redirects]]
+  from = "/iptv-guides/iptv-epg.html"
+  to = "/iptv-guides/iptv-epg"
+  status = 301
+[[redirects]]
+  from = "/iptv-guides/iptv-vs-cable.html"
+  to = "/iptv-guides/iptv-vs-cable"
+  status = 301
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+[[redirects]]
+  from = "/help"
+  to = "/help.html"
+  status = 200
+[[redirects]]
+  from = "/setup-guides"
+  to = "/setup-guides.html"
+  status = 200
+[[redirects]]
+  from = "/devices"
+  to = "/devices.html"
+  status = 200
+[[redirects]]
+  from = "/iptv-subscription"
+  to = "/iptv-subscription.html"
+  status = 200
+[[redirects]]
+  from = "/iptv-for-firestick"
+  to = "/iptv-for-firestick.html"
+  status = 200
+[[redirects]]
+  from = "/iptv-for-smart-tv"
+  to = "/iptv-for-smart-tv.html"
+  status = 200
+[[redirects]]
+  from = "/iptv-for-android"
+  to = "/iptv-for-android.html"
+  status = 200
+[[redirects]]
+  from = "/iptv-for-iphone"
+  to = "/iptv-for-iphone.html"
+  status = 200
+[[redirects]]
+  from = "/iptv-for-apple-tv"
+  to = "/iptv-for-apple-tv.html"
+  status = 200
+[[redirects]]
+  from = "/iptv-guides"
+  to = "/iptv-guides.html"
+  status = 200
+[[redirects]]
+  from = "/iptv-guides/*"
+  to = "/iptv-guides/:splat.html"
+  status = 200
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 200
+[[redirects]]
+  from = "/terms"
+  to = "/terms.html"
+  status = 200
+[[redirects]]
+  from = "/refund-policy"
+  to = "/refund-policy.html"
+  status = 200
+
 # ============================================
 # Redirect www to apex (uncomment if using www)
 # ============================================

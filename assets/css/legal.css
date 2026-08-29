@@ -6,7 +6,7 @@
   --text-muted: rgba(255,255,255,0.65);
   --text-dim: rgba(255,255,255,0.5);
   --line-on-dark: rgba(255,255,255,0.10);
-  --container: 880px;
+  --container: 860px;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -14,7 +14,7 @@ html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
   font-family: 'Geist', system-ui, -apple-system, sans-serif;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.7;
   background: #0D0D0D;
   color: var(--text-on-dark);
   overflow-x: hidden;
@@ -113,6 +113,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   content: ""; width: 6px; height: 6px; background: var(--accent-green);
   border-radius: 50%;
 }
+.breadcrumbs { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 28px; color:rgba(255,255,255,.55); font-size:13px; }
+.breadcrumbs a { color:var(--accent-green); }
 
 /* ===== ARTICLE ===== */
 .legal-article {

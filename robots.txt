@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+# Retired WordPress URLs return 410; allow crawlers to see that response.
 
 # Block AI training crawlers (optional — remove if you want them to crawl)
 User-agent: GPTBot

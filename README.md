@@ -39,7 +39,8 @@ Static landing page hosted on Netlify.
 ├── index.html        # Main landing page
 ├── netlify.toml      # Netlify build config + security headers
 ├── robots.txt        # Crawler instructions + AI bot blocking
-├── sitemap.xml       # Single-URL sitemap
+├── sitemap.xml       # Sitemap for 23 public pages
+├── netlify/edge-functions/legacy-cleanup.js # Retired WordPress URL responses
 ├── .gitignore
 └── README.md
 ```
@@ -53,4 +54,33 @@ To prevent SEO competition between the two:
 - This domain: indexed normally, canonical to self
 - Trial domain: add `<meta name="robots" content="noindex, follow">` to the trial form page
 
-The `Organization` schema in `index.html` already links the two via `sameAs`.
+The Organization schema identifies this domain. Add `sameAs` only for verified official profiles; the trial form is not a social identity profile.
+
+## SEO cleanup rollout
+
+Deploy this folder through Netlify to activate the legacy cleanup edge function.
+It returns HTTP 410 for `/feed/` and nested feed URLs, root WordPress `?p=`
+links (including `/index.php?p=`), and `/sitemap_index.xml`. Other requests
+continue through existing routing. These URLs remain allowed in robots.txt so
+Google can crawl and observe their removal. Unrecognized URLs retain normal 404
+behavior; do not retire every unknown path.
+
+The audit's 50 former blog paths were not included. Add confirmed pathnames to
+`retiredBlogPaths` in the edge function before expecting those paths to return
+410. Verify that none is a current page or has a relevant replacement.
+
+After deployment:
+
+- Verify actual HTTP status codes for legacy URLs and current pages on Netlify.
+- Remove the old `sitemap_index.xml` submission in Search Console and submit
+  `https://inline-iptv.live/sitemap.xml`.
+- Inspect and request indexing for `/`, `/iptv-subscription`, `/about`, `/devices`,
+  `/iptv-guides`, `/iptv-for-firestick`, `/iptv-for-smart-tv`, `/iptv-for-android`,
+  `/iptv-for-iphone`, and `/iptv-for-apple-tv`.
+- Add verified official social profiles to Organization `sameAs` once available.
+- Review Page Indexing and search performance after Google recrawls. Indexing
+  and rankings are not guaranteed by these file changes.
+
+Local validation: `python3 scripts/seo-audit.py`. This checks metadata, local
+links, assets, structured-data JSON and sitemap targets, not live Netlify routing
+or Search Console data.
